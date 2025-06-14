@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Logic Gate Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="sidebar">
+  <h3>Gates</h3>
+  <div class="gate-option" data-type="AND">AND</div>
+  <div class="gate-option" data-type="OR">OR</div>
+  <div class="gate-option" data-type="NOT">NOT</div>
+  <div class="gate-option" data-type="SWITCH">Switch</div>
+  <div class="gate-option" data-type="LIGHT">Light</div>
+  <button id="save">Save</button>
+  <input type="file" id="load" style="display:none" />
+  <button id="loadBtn">Load</button>
+</div>
+<div id="workspace-container">
+  <svg id="wires"></svg>
+  <div id="workspace"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
